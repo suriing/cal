@@ -1,5 +1,8 @@
 # cal: Go (golang) calendar library for dealing with holidays and work days
 
+> Added Korea holidays
+> Handling lunar dates codes came from "github.com/xishvai/lunar"
+
 This library augments the Go time package to provide easy handling of holidays
 and work days (business days).
 
@@ -17,7 +20,7 @@ package main
 import (
 	"time"
 
-	"github.com/rickar/cal"
+	"github.com/suriing/cal"
 )
 
 func main() {
